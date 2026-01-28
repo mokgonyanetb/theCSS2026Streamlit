@@ -34,7 +34,7 @@ weather_data = pd.DataFrame({
 
 # Sections based on menu selection
 if menu == "Researcher Profile":
-    st.title("Researcher Profile")
+    st.title("Tumisho B. Mokgonyane Research Profile")
     st.sidebar.header("Profile Options")
 
     # Collect basic information
@@ -132,4 +132,5 @@ elif menu == "Contact":
     # Add a contact section
     st.header("Contact Information")
     email = "jane.doe@example.com"
+
     st.write(f"You can reach me at {email}.")
