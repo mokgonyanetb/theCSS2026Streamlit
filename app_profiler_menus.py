@@ -38,17 +38,21 @@ if menu == "Researcher Profile":
     st.sidebar.header("Profile Options")
 
     # Collect basic information
-    name = "Dr. Jane Doe"
-    field = "Astrophysics"
-    institution = "University of Science"
+    name = "Mr. Tumisho Mokgonyane"
+    field = "Computer Sciences"
+    institution = "University of Limpopo"
 
     # Display basic profile information
     st.write(f"**Name:** {name}")
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")
     
+#     st.image(
+#     "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+#     caption="Nature (Pixabay)"
+# )    
     st.image(
-    "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+    "https://assets.datacamp.com/users/avatars/003/037/517/medium/TumishoC.jpg",
     caption="Nature (Pixabay)"
 )
 
@@ -134,3 +138,4 @@ elif menu == "Contact":
     email = "jane.doe@example.com"
 
     st.write(f"You can reach me at {email}.")
+
